@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import InputControl from './inputControl'
+import InputControl from './InputControl'
 import { Link, useNavigate } from 'react-router-dom'
 import { login } from '../Firebase/Firebase'
 import { useHomeContext } from '../ContextAPI/Context/HomeContext'
