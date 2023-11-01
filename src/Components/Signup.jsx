@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
-import InputControl from './inputControl'
+import InputControl from './InputControl'
 import { signup } from '../Firebase/Firebase'
 import { updateProfile } from 'firebase/auth'
 import { useHomeContext } from '../ContextAPI/Context/HomeContext'
